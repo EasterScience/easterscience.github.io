@@ -633,6 +633,8 @@ progress {
 .container-xl,
 .container-lg,
 .container-md,
+/*skill's container*/
+.container-skills,
 .container-sm {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
@@ -646,6 +648,50 @@ progress {
     max-width: 540px;
   }
 }
+
+/*skill's container*/
+
+
+.container-skills {
+  
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  
+  background-color: rgb(231, 231, 231);
+  border-radius: 20px;
+}
+
+.javascript, .web-tech, .python, .c, .mysql {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+  color: white;
+  border-radius: 20px;
+}
+.web-tech {
+  width: 85%;
+  background-color: #602C50;
+}
+.javascript {
+  width: 60%;
+  background-color: #3c873a;
+}
+.python {
+  width: 80%;
+  background-color: #ffc904;
+}
+.c {
+  width: 60%;
+  background-color: #808080;
+}
+.mysql {
+  width: 65%;
+  background-color: #00758f;
+}
+
+
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
@@ -666,6 +712,7 @@ progress {
     max-width: 1320px;
   }
 }
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
