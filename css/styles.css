@@ -671,23 +671,23 @@ progress {
   border-radius: 20px;
 }
 .web-tech {
-  width: 85%;
+  width: 90%;
   background-color: #602C50;
 }
 .javascript {
-  width: 60%;
+  width: 70%;
   background-color: #3c873a;
 }
 .python {
-  width: 80%;
-  background-color: #ffc904;
+  width: 95%;
+  background-color: #cac002;
 }
 .c {
   width: 60%;
   background-color: #808080;
 }
 .mysql {
-  width: 65%;
+  width: 80%;
   background-color: #00758f;
 }
 
@@ -11525,7 +11525,7 @@ html {
   opacity: 1;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .portfolio-modal .btn-close {
