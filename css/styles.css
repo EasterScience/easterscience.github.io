@@ -607,6 +607,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -11496,6 +11497,7 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  height: auto;
 }
 
 @media (min-width: 992px) {
