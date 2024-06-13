@@ -488,6 +488,12 @@ progress {
   display: none !important;
 }
 
+.leadbold {
+  font-size: 20px;
+  font-weight: 700;
+  /*margin-bottom: 24px;*/
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
