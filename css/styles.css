@@ -676,19 +676,19 @@ progress {
 }
 .javascript {
   width: 70%;
-  background-color: #3c873a;
+  background-color: #8F3000;
 }
 .python {
   width: 95%;
-  background-color: #cac002;
+  background-color: #5F5A02;
 }
 .c {
   width: 60%;
-  background-color: #808080;
+  background-color: #595959;
 }
 .mysql {
   width: 80%;
-  background-color: #00758f;
+  background-color: #005F75;
 }
 
 
