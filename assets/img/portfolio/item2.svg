@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg2)"/>
+  <!-- Text editor window -->
+  <rect x="100" y="70" width="700" height="440" rx="10" fill="#1e1e1e" stroke="#3498db" stroke-width="1.5"/>
+  <rect x="100" y="70" width="700" height="38" rx="10" fill="#2c3e50"/>
+  <circle cx="128" cy="89" r="7" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="148" cy="89" r="7" fill="#f39c12" opacity="0.8"/>
+  <circle cx="168" cy="89" r="7" fill="#2ecc71" opacity="0.8"/>
+  <text x="450" y="94" font-family="Montserrat, sans-serif" font-size="11" fill="#fff" text-anchor="middle" opacity="0.6">Easter Text Editor</text>
+  <!-- Toolbar -->
+  <rect x="100" y="108" width="700" height="32" fill="#252540"/>
+  <rect x="115" y="115" width="20" height="18" rx="3" fill="#3498db" opacity="0.4"/>
+  <text x="125" y="128" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">B</text>
+  <rect x="142" y="115" width="20" height="18" rx="3" fill="#3498db" opacity="0.3"/>
+  <text x="152" y="128" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-style="italic">I</text>
+  <rect x="169" y="115" width="20" height="18" rx="3" fill="#3498db" opacity="0.3"/>
+  <text x="179" y="128" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle" text-decoration="underline">U</text>
+  <line x1="200" y1="115" x2="200" y2="133" stroke="#fff" stroke-width="1" opacity="0.2"/>
+  <rect x="210" y="115" width="50" height="18" rx="3" fill="#1abc9c" opacity="0.3"/>
+  <text x="235" y="128" font-family="Lato, sans-serif" font-size="9" fill="#1abc9c" text-anchor="middle">Color</text>
+  <rect x="268" y="115" width="50" height="18" rx="3" fill="#9b59b6" opacity="0.3"/>
+  <text x="293" y="128" font-family="Lato, sans-serif" font-size="9" fill="#9b59b6" text-anchor="middle">Theme</text>
+  <rect x="326" y="115" width="50" height="18" rx="3" fill="#f39c12" opacity="0.3"/>
+  <text x="351" y="128" font-family="Lato, sans-serif" font-size="9" fill="#f39c12" text-anchor="middle">TTS</text>
+  <!-- Line numbers -->
+  <rect x="100" y="140" width="40" height="370" fill="#1a1a30"/>
+  <text x="125" y="162" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" opacity="0.3">1</text>
+  <text x="125" y="180" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" opacity="0.3">2</text>
+  <text x="125" y="198" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" opacity="0.3">3</text>
+  <text x="125" y="216" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" opacity="0.3">4</text>
+  <text x="125" y="234" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" opacity="0.3">5</text>
+  <text x="125" y="252" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" opacity="0.3">6</text>
+  <text x="125" y="270" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" opacity="0.3">7</text>
+  <!-- Code/text content -->
+  <text x="155" y="162" font-family="monospace" font-size="11" fill="#e74c3c">def</text>
+  <text x="185" y="162" font-family="monospace" font-size="11" fill="#f39c12">hello_world</text>
+  <text x="305" y="162" font-family="monospace" font-size="11" fill="#fff" opacity="0.6">():</text>
+  <text x="170" y="180" font-family="monospace" font-size="11" fill="#2ecc71">"Easter Text Editor"</text>
+  <text x="170" y="198" font-family="monospace" font-size="11" fill="#e74c3c">print</text>
+  <text x="210" y="198" font-family="monospace" font-size="11" fill="#2ecc71">("Hello!")</text>
+  <text x="155" y="234" font-family="monospace" font-size="11" fill="#9b59b6"># Calculator mode</text>
+  <text x="155" y="252" font-family="monospace" font-size="11" fill="#e74c3c">result</text>
+  <text x="205" y="252" font-family="monospace" font-size="11" fill="#fff" opacity="0.6">= 42 * 3.14</text>
+  <!-- Speaker icon for TTS -->
+  <circle cx="720" cy="200" r="40" fill="#f39c12" opacity="0.1" stroke="#f39c12" stroke-width="1.5"/>
+  <rect x="705" y="190" width="12" height="20" rx="2" fill="#f39c12" opacity="0.6"/>
+  <path d="M717,185 L732,175 L732,225 L717,215 Z" fill="#f39c12" opacity="0.4"/>
+  <path d="M738,185 Q750,200 738,215" fill="none" stroke="#f39c12" stroke-width="2" opacity="0.5"/>
+  <path d="M743,178 Q760,200 743,222" fill="none" stroke="#f39c12" stroke-width="2" opacity="0.3"/>
+  <!-- Calculator widget -->
+  <rect x="620" y="300" width="160" height="180" rx="8" fill="#252540" stroke="#1abc9c" stroke-width="1"/>
+  <rect x="635" y="315" width="130" height="30" rx="4" fill="#1a1a30"/>
+  <text x="755" y="336" font-family="monospace" font-size="14" fill="#1abc9c" text-anchor="end">131.88</text>
+  <rect x="635" y="355" width="28" height="25" rx="4" fill="#3498db" opacity="0.3"/>
+  <text x="649" y="372" font-family="sans-serif" font-size="11" fill="#fff" text-anchor="middle">7</text>
+  <rect x="669" y="355" width="28" height="25" rx="4" fill="#3498db" opacity="0.3"/>
+  <text x="683" y="372" font-family="sans-serif" font-size="11" fill="#fff" text-anchor="middle">8</text>
+  <rect x="703" y="355" width="28" height="25" rx="4" fill="#3498db" opacity="0.3"/>
+  <text x="717" y="372" font-family="sans-serif" font-size="11" fill="#fff" text-anchor="middle">9</text>
+  <rect x="737" y="355" width="28" height="25" rx="4" fill="#f39c12" opacity="0.4"/>
+  <text x="751" y="372" font-family="sans-serif" font-size="11" fill="#f39c12" text-anchor="middle">+</text>
+  <rect x="635" y="385" width="28" height="25" rx="4" fill="#3498db" opacity="0.3"/>
+  <text x="649" y="402" font-family="sans-serif" font-size="11" fill="#fff" text-anchor="middle">4</text>
+  <rect x="669" y="385" width="28" height="25" rx="4" fill="#3498db" opacity="0.3"/>
+  <text x="683" y="402" font-family="sans-serif" font-size="11" fill="#fff" text-anchor="middle">5</text>
+  <rect x="703" y="385" width="28" height="25" rx="4" fill="#3498db" opacity="0.3"/>
+  <text x="717" y="402" font-family="sans-serif" font-size="11" fill="#fff" text-anchor="middle">6</text>
+  <rect x="737" y="385" width="28" height="25" rx="4" fill="#f39c12" opacity="0.4"/>
+  <text x="751" y="402" font-family="sans-serif" font-size="11" fill="#f39c12" text-anchor="middle">-</text>
+  <!-- Title -->
+  <text x="450" y="560" font-family="Montserrat, Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="700">Easter Text Editor</text>
+  <text x="450" y="595" font-family="Lato, Arial, sans-serif" font-size="16" fill="#1abc9c" text-anchor="middle">Python · Tkinter · Text-to-Speech</text>
+</svg>

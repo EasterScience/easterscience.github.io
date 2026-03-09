@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#1b3a4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg5)"/>
+  <!-- Desktop app window -->
+  <rect x="130" y="80" width="640" height="420" rx="10" fill="#1e1e3a" stroke="#3498db" stroke-width="1.5"/>
+  <rect x="130" y="80" width="640" height="35" rx="10" fill="#2c3e50"/>
+  <circle cx="155" cy="97" r="6" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="173" cy="97" r="6" fill="#f39c12" opacity="0.8"/>
+  <circle cx="191" cy="97" r="6" fill="#2ecc71" opacity="0.8"/>
+  <text x="450" y="102" font-family="Montserrat, sans-serif" font-size="10" fill="#fff" text-anchor="middle" opacity="0.6">Service Request Automation</text>
+  <!-- Input area (left) -->
+  <rect x="155" y="130" width="280" height="200" rx="6" fill="#1a1a30" stroke="#3498db" stroke-width="1" opacity="0.6"/>
+  <text x="170" y="150" font-family="Lato, sans-serif" font-size="10" fill="#3498db" opacity="0.7">Raw Text Input</text>
+  <rect x="170" y="162" width="240" height="5" rx="3" fill="#fff" opacity="0.12"/>
+  <rect x="170" y="175" width="200" height="5" rx="3" fill="#fff" opacity="0.12"/>
+  <rect x="170" y="188" width="220" height="5" rx="3" fill="#fff" opacity="0.12"/>
+  <rect x="170" y="201" width="180" height="5" rx="3" fill="#fff" opacity="0.12"/>
+  <rect x="170" y="220" width="240" height="5" rx="3" fill="#3498db" opacity="0.2"/>
+  <rect x="170" y="233" width="200" height="5" rx="3" fill="#fff" opacity="0.12"/>
+  <rect x="170" y="246" width="230" height="5" rx="3" fill="#fff" opacity="0.12"/>
+  <rect x="170" y="265" width="210" height="5" rx="3" fill="#fff" opacity="0.12"/>
+  <rect x="170" y="278" width="240" height="5" rx="3" fill="#fff" opacity="0.12"/>
+  <rect x="170" y="297" width="190" height="5" rx="3" fill="#3498db" opacity="0.2"/>
+  <!-- Arrow -->
+  <line x1="450" y1="230" x2="490" y2="230" stroke="#1abc9c" stroke-width="2" opacity="0.6"/>
+  <polygon points="488,224 500,230 488,236" fill="#1abc9c" opacity="0.6"/>
+  <!-- Parsed output (right) -->
+  <rect x="510" y="130" width="240" height="200" rx="6" fill="#1a1a30" stroke="#1abc9c" stroke-width="1" opacity="0.6"/>
+  <text x="525" y="150" font-family="Lato, sans-serif" font-size="10" fill="#1abc9c" opacity="0.7">Parsed Request</text>
+  <text x="525" y="172" font-family="Lato, sans-serif" font-size="9" fill="#fff" opacity="0.4">Name:</text>
+  <rect x="570" y="164" width="150" height="12" rx="3" fill="#1abc9c" opacity="0.1" stroke="#1abc9c" stroke-width="0.5"/>
+  <text x="525" y="196" font-family="Lato, sans-serif" font-size="9" fill="#fff" opacity="0.4">Type:</text>
+  <rect x="570" y="188" width="150" height="12" rx="3" fill="#1abc9c" opacity="0.1" stroke="#1abc9c" stroke-width="0.5"/>
+  <text x="525" y="220" font-family="Lato, sans-serif" font-size="9" fill="#fff" opacity="0.4">Priority:</text>
+  <rect x="580" y="212" width="60" height="12" rx="3" fill="#e74c3c" opacity="0.3"/>
+  <text x="610" y="222" font-family="Lato, sans-serif" font-size="8" fill="#e74c3c" text-anchor="middle">HIGH</text>
+  <text x="525" y="244" font-family="Lato, sans-serif" font-size="9" fill="#fff" opacity="0.4">Details:</text>
+  <rect x="525" y="250" width="200" height="5" rx="3" fill="#fff" opacity="0.1"/>
+  <rect x="525" y="262" width="180" height="5" rx="3" fill="#fff" opacity="0.1"/>
+  <rect x="525" y="274" width="190" height="5" rx="3" fill="#fff" opacity="0.1"/>
+  <!-- Status check -->
+  <circle cx="630" cy="310" r="10" fill="#2ecc71" opacity="0.5"/>
+  <polyline points="624,310 628,315 636,305" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <text x="650" y="314" font-family="Lato, sans-serif" font-size="9" fill="#2ecc71">Ready</text>
+  <!-- Bottom buttons -->
+  <rect x="300" y="360" width="130" height="35" rx="6" fill="#1abc9c" opacity="0.3" stroke="#1abc9c" stroke-width="1"/>
+  <text x="365" y="382" font-family="Montserrat, sans-serif" font-size="11" fill="#1abc9c" text-anchor="middle" font-weight="700">SEND</text>
+  <rect x="460" y="360" width="130" height="35" rx="6" fill="#3498db" opacity="0.2" stroke="#3498db" stroke-width="1"/>
+  <text x="525" y="382" font-family="Montserrat, sans-serif" font-size="11" fill="#3498db" text-anchor="middle">BATCH</text>
+  <!-- Progress bar -->
+  <rect x="155" y="420" width="600" height="20" rx="4" fill="#1a1a30"/>
+  <rect x="155" y="420" width="420" height="20" rx="4" fill="#2ecc71" opacity="0.4"/>
+  <text x="450" y="434" font-family="Lato, sans-serif" font-size="9" fill="#fff" text-anchor="middle">70% — 7 of 10 requests sent</text>
+  <!-- Saved time badge -->
+  <rect x="300" y="460" width="200" height="30" rx="15" fill="#f39c12" opacity="0.15" stroke="#f39c12" stroke-width="1"/>
+  <text x="400" y="480" font-family="Montserrat, sans-serif" font-size="11" fill="#f39c12" text-anchor="middle" font-weight="700">30 min saved per request</text>
+  <!-- Title -->
+  <text x="450" y="555" font-family="Montserrat, Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="700">Service Request Automation</text>
+  <text x="450" y="590" font-family="Lato, Arial, sans-serif" font-size="16" fill="#1abc9c" text-anchor="middle">Python · Tkinter · Selenium</text>
+</svg>

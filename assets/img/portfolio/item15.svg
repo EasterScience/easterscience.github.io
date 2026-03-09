@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="bg15" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#2d132c"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg15)"/>
+  <!-- Input PDF document (left) -->
+  <rect x="100" y="140" width="200" height="260" rx="8" fill="#ffffff" opacity="0.9"/>
+  <rect x="100" y="140" width="200" height="40" rx="8" fill="#e74c3c"/>
+  <text x="200" y="166" font-family="Montserrat, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">PDF</text>
+  <rect x="125" y="200" width="150" height="6" rx="3" fill="#ccc"/>
+  <rect x="125" y="215" width="120" height="6" rx="3" fill="#ccc"/>
+  <rect x="125" y="230" width="140" height="6" rx="3" fill="#ccc"/>
+  <rect x="125" y="255" width="130" height="6" rx="3" fill="#3498db"/>
+  <rect x="125" y="270" width="150" height="6" rx="3" fill="#ccc"/>
+  <rect x="125" y="285" width="100" height="6" rx="3" fill="#ccc"/>
+  <rect x="125" y="310" width="150" height="6" rx="3" fill="#3498db"/>
+  <rect x="125" y="325" width="110" height="6" rx="3" fill="#ccc"/>
+  <rect x="125" y="340" width="140" height="6" rx="3" fill="#ccc"/>
+  <rect x="125" y="365" width="80" height="6" rx="3" fill="#ccc"/>
+  <!-- Input Word document (left bottom) -->
+  <rect x="130" y="430" width="180" height="100" rx="8" fill="#ffffff" opacity="0.85"/>
+  <rect x="130" y="430" width="180" height="35" rx="8" fill="#2b5797"/>
+  <text x="220" y="453" font-family="Montserrat, sans-serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">DOCX</text>
+  <rect x="150" y="480" width="140" height="5" rx="3" fill="#ccc"/>
+  <rect x="150" y="493" width="110" height="5" rx="3" fill="#ccc"/>
+  <rect x="150" y="506" width="130" height="5" rx="3" fill="#ccc"/>
+  <!-- Arrow flow -->
+  <line x1="330" y1="300" x2="400" y2="300" stroke="#1abc9c" stroke-width="3" opacity="0.8"/>
+  <polygon points="400,293 415,300 400,307" fill="#1abc9c" opacity="0.8"/>
+  <!-- Gear/processing icon (center) -->
+  <circle cx="480" cy="300" r="60" fill="none" stroke="#1abc9c" stroke-width="2" opacity="0.4"/>
+  <circle cx="480" cy="300" r="40" fill="#1abc9c" opacity="0.15"/>
+  <!-- Gear teeth -->
+  <rect x="475" y="235" width="10" height="20" rx="3" fill="#1abc9c" opacity="0.6"/>
+  <rect x="475" y="345" width="10" height="20" rx="3" fill="#1abc9c" opacity="0.6"/>
+  <rect x="415" y="295" width="20" height="10" rx="3" fill="#1abc9c" opacity="0.6"/>
+  <rect x="525" y="295" width="20" height="10" rx="3" fill="#1abc9c" opacity="0.6"/>
+  <!-- Python icon text -->
+  <text x="480" y="306" font-family="Montserrat, sans-serif" font-size="16" fill="#1abc9c" text-anchor="middle" font-weight="700">Py</text>
+  <!-- Arrow flow right -->
+  <line x1="550" y1="300" x2="620" y2="300" stroke="#f39c12" stroke-width="3" opacity="0.8"/>
+  <polygon points="620,293 635,300 620,307" fill="#f39c12" opacity="0.8"/>
+  <!-- Output Word report (right) -->
+  <rect x="650" y="140" width="200" height="320" rx="8" fill="#ffffff" opacity="0.95"/>
+  <rect x="650" y="140" width="200" height="45" rx="8" fill="#2b5797"/>
+  <text x="750" y="168" font-family="Montserrat, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">REPORT.DOCX</text>
+  <!-- Report content -->
+  <rect x="675" y="205" width="100" height="10" rx="3" fill="#2b5797" opacity="0.6"/>
+  <rect x="675" y="225" width="150" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="238" width="140" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="251" width="130" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="275" width="80" height="10" rx="3" fill="#2b5797" opacity="0.6"/>
+  <rect x="675" y="295" width="150" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="308" width="120" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="321" width="145" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="345" width="90" height="10" rx="3" fill="#2b5797" opacity="0.6"/>
+  <rect x="675" y="365" width="150" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="378" width="135" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="391" width="140" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="404" width="100" height="5" rx="3" fill="#ccc"/>
+  <rect x="675" y="425" width="150" height="5" rx="3" fill="#ccc"/>
+  <!-- Title -->
+  <text x="450" y="555" font-family="Montserrat, Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="700">Automated Report Generation</text>
+  <text x="450" y="590" font-family="Lato, Arial, sans-serif" font-size="16" fill="#1abc9c" text-anchor="middle">Python · PDF · Word Processing</text>
+</svg>

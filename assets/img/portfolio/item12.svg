@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="bg12" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg12)"/>
+  <!-- Grid/network pattern -->
+  <line x1="100" y1="150" x2="800" y2="150" stroke="#1abc9c" stroke-width="0.5" opacity="0.2"/>
+  <line x1="100" y1="250" x2="800" y2="250" stroke="#1abc9c" stroke-width="0.5" opacity="0.2"/>
+  <line x1="100" y1="350" x2="800" y2="350" stroke="#1abc9c" stroke-width="0.5" opacity="0.2"/>
+  <line x1="100" y1="450" x2="800" y2="450" stroke="#1abc9c" stroke-width="0.5" opacity="0.2"/>
+  <line x1="200" y1="100" x2="200" y2="550" stroke="#1abc9c" stroke-width="0.5" opacity="0.2"/>
+  <line x1="400" y1="100" x2="400" y2="550" stroke="#1abc9c" stroke-width="0.5" opacity="0.2"/>
+  <line x1="600" y1="100" x2="600" y2="550" stroke="#1abc9c" stroke-width="0.5" opacity="0.2"/>
+  <!-- Distribution nodes -->
+  <circle cx="300" cy="200" r="40" fill="none" stroke="#1abc9c" stroke-width="2" opacity="0.8"/>
+  <circle cx="600" cy="200" r="40" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.8"/>
+  <circle cx="450" cy="350" r="50" fill="none" stroke="#3498db" stroke-width="3" opacity="0.9"/>
+  <circle cx="200" cy="450" r="30" fill="none" stroke="#f39c12" stroke-width="2" opacity="0.7"/>
+  <circle cx="700" cy="450" r="30" fill="none" stroke="#9b59b6" stroke-width="2" opacity="0.7"/>
+  <!-- Connection lines -->
+  <line x1="340" y1="220" x2="410" y2="320" stroke="#1abc9c" stroke-width="1.5" opacity="0.5"/>
+  <line x1="560" y1="220" x2="490" y2="320" stroke="#e74c3c" stroke-width="1.5" opacity="0.5"/>
+  <line x1="420" y1="390" x2="230" y2="440" stroke="#3498db" stroke-width="1.5" opacity="0.5"/>
+  <line x1="480" y1="390" x2="670" y2="440" stroke="#3498db" stroke-width="1.5" opacity="0.5"/>
+  <!-- Building icons in nodes -->
+  <rect x="285" y="185" width="30" height="30" rx="3" fill="#1abc9c" opacity="0.6"/>
+  <rect x="288" y="188" width="8" height="8" rx="1" fill="#1a1a2e"/>
+  <rect x="300" y="188" width="8" height="8" rx="1" fill="#1a1a2e"/>
+  <rect x="288" y="200" width="8" height="8" rx="1" fill="#1a1a2e"/>
+  <rect x="300" y="200" width="8" height="8" rx="1" fill="#1a1a2e"/>
+  <!-- Chart icon in center -->
+  <rect x="430" y="360" width="8" height="25" rx="2" fill="#3498db" opacity="0.8"/>
+  <rect x="442" y="345" width="8" height="40" rx="2" fill="#3498db" opacity="0.8"/>
+  <rect x="454" y="352" width="8" height="33" rx="2" fill="#3498db" opacity="0.8"/>
+  <rect x="466" y="340" width="8" height="45" rx="2" fill="#3498db" opacity="0.8"/>
+  <!-- Dots -->
+  <circle cx="300" cy="200" r="5" fill="#1abc9c"/>
+  <circle cx="600" cy="200" r="5" fill="#e74c3c"/>
+  <circle cx="450" cy="350" r="5" fill="#3498db"/>
+  <circle cx="200" cy="450" r="5" fill="#f39c12"/>
+  <circle cx="700" cy="450" r="5" fill="#9b59b6"/>
+  <!-- Title -->
+  <text x="450" y="560" font-family="Montserrat, Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="700">Distribution Management</text>
+  <text x="450" y="595" font-family="Lato, Arial, sans-serif" font-size="16" fill="#1abc9c" text-anchor="middle">Django · SQL · Redis · Graph API</text>
+</svg>

@@ -12793,3 +12793,452 @@ html {
 }
 
 /* Orange */
+
+/* ===== Improved Portfolio Hover Styles ===== */
+.portfolio .portfolio-item {
+  transition: transform 0.35s ease-in-out, box-shadow 0.35s ease-in-out;
+}
+
+.portfolio .portfolio-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  background: linear-gradient(180deg, rgba(26, 26, 46, 0.8) 0%, rgba(12, 100, 81, 0.93) 100%);
+  backdrop-filter: blur(2px);
+  transition: all 0.35s ease-in-out;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  padding: 1.25rem;
+  font-size: 1rem;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content p:first-child {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content p:nth-child(2) {
+  font-size: 0.85rem;
+  opacity: 0.85;
+  line-height: 1.45;
+  margin-bottom: 0.75rem;
+  font-weight: 300;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content .fas.fa-plus {
+  transition: transform 0.3s ease;
+}
+
+.portfolio .portfolio-item:hover .portfolio-item-caption .portfolio-item-caption-content .fas.fa-plus {
+  transform: scale(1.2);
+}
+
+/* ===== Improved Portfolio Modal Styles ===== */
+.portfolio-modal .modal-content {
+  background-color: #1e1e3a;
+  border: 1px solid rgba(26, 188, 156, 0.2);
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.portfolio-modal .modal-header {
+  padding: 1rem 1.5rem 0;
+}
+
+.portfolio-modal .modal-header .btn-close {
+  filter: invert(1);
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.portfolio-modal .modal-header .btn-close:hover {
+  opacity: 1;
+}
+
+.portfolio-modal .portfolio-modal-title {
+  color: #1abc9c;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.portfolio-modal .divider-custom .divider-custom-line {
+  border-top: 1px solid rgba(26, 188, 156, 0.3);
+}
+
+.portfolio-modal .divider-custom .divider-custom-icon {
+  color: #1abc9c;
+}
+
+.portfolio-modal .modal-body p {
+  color: #ccc;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.portfolio-modal .modal-body strong {
+  color: #1abc9c;
+  font-weight: 600;
+}
+
+.portfolio-modal .modal-body ul {
+  text-align: left;
+  color: #bbb;
+  line-height: 1.8;
+}
+
+.portfolio-modal .modal-body ul li {
+  margin-bottom: 0.3rem;
+}
+
+.portfolio-modal .modal-body a {
+  color: #1abc9c;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.portfolio-modal .modal-body a:hover {
+  color: #16a085;
+}
+
+.portfolio-modal .btn-primary {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  border-radius: 2rem;
+  padding: 0.6rem 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: all 0.25s ease;
+  margin: 0.25rem;
+}
+
+.portfolio-modal .btn-primary:hover {
+  background-color: #16a085;
+  border-color: #16a085;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(26, 188, 156, 0.3);
+}
+
+.portfolio-modal .modal-body .tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-modal .modal-body .tech-badge {
+  display: inline-block;
+  background: rgba(26, 188, 156, 0.12);
+  border: 1px solid rgba(26, 188, 156, 0.3);
+  color: #1abc9c;
+  padding: 0.3rem 0.8rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-modal .modal-project-img {
+  max-width: 100%;
+  border-radius: 0.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ===== Overall Theme Refinements ===== */
+
+/* Smooth scroll for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar glass effect */
+#mainNav {
+  backdrop-filter: blur(10px);
+  background-color: rgba(44, 62, 80, 0.92) !important;
+  transition: padding-top 0.3s, padding-bottom 0.3s, background-color 0.3s;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+#mainNav .navbar-brand {
+  letter-spacing: 0.08em;
+  font-size: 1.3em;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  transition: color 0.25s ease, background-color 0.25s ease;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+}
+
+/* Masthead improvements */
+.masthead {
+  background: linear-gradient(135deg, #0C6451 0%, #1abc9c 50%, #16a085 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.masthead::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at 30% 50%, rgba(255,255,255,0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.masthead .masthead-avatar {
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  transition: transform 0.4s ease;
+}
+
+.masthead .masthead-avatar:hover {
+  transform: scale(1.05);
+}
+
+.masthead .masthead-heading {
+  letter-spacing: 0.08em;
+}
+
+.masthead .masthead-subheading {
+  opacity: 0.9;
+  letter-spacing: 0.04em;
+}
+
+/* Page sections */
+.page-section {
+  position: relative;
+}
+
+.page-section .page-section-heading {
+  letter-spacing: 0.06em;
+}
+
+/* Portfolio section — subtle background */
+.page-section.portfolio {
+  background-color: #f5f7fa;
+}
+
+/* Divider refinements */
+.divider-custom .divider-custom-line {
+  border-top-width: 2px;
+  opacity: 0.6;
+}
+
+/* About section gradient */
+.page-section.bg-primary {
+  background: linear-gradient(135deg, #0C6451 0%, #1abc9c 50%, #16a085 100%) !important;
+  position: relative;
+}
+
+/* Skills bars — add transition */
+.container-skills > div {
+  transition: width 1s ease-in-out;
+}
+
+/* Contact section */
+#contact {
+  background-color: #f5f7fa;
+}
+
+#contact .fa-stack .fa-circle {
+  color: #1abc9c;
+}
+
+#contact a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+#contact a:hover {
+  color: #1abc9c;
+}
+
+/* Footer refinements */
+.footer {
+  background: linear-gradient(180deg, #2c3e50 0%, #1a252f 100%);
+}
+
+.footer .btn-social {
+  transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+.footer .btn-social:hover {
+  transform: translateY(-3px);
+  background-color: rgba(26, 188, 156, 0.15);
+}
+
+.footer .btn-social img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/* Copyright bar */
+.copyright {
+  background-color: #141d26;
+}
+
+.copyright a {
+  transition: color 0.2s;
+}
+
+.copyright a:hover {
+  color: #fff !important;
+}
+
+/* Resume button refinement */
+.btn-xl.btn-outline-light {
+  border-width: 2px;
+  border-radius: 3rem;
+  letter-spacing: 0.04em;
+  transition: all 0.3s ease;
+}
+
+.btn-xl.btn-outline-light:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Experience timeline border glow on hover */
+.page-section.bg-primary [style*="border-left"]:hover {
+  border-left-color: rgba(255, 255, 255, 0.7) !important;
+  transition: border-left-color 0.3s ease;
+}
+
+/* Smooth fade-in for page sections */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-section .page-section-heading {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Better meta description */
+/* Selection color */
+::selection {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+/* Scrollbar styling (webkit) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a252f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1abc9c;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #16a085;
+}
+
+/* ===== Improved Skills Section ===== */
+.skill-group {
+  margin-bottom: 1.25rem;
+}
+
+.skill-group-label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.6rem;
+  color: #fff;
+}
+
+.skill-group-label i {
+  margin-right: 0.5rem;
+  opacity: 0.8;
+  width: 1.2rem;
+  text-align: center;
+}
+
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.skill-chip {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 0.3rem 0.75rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  cursor: default;
+  transition: all 0.25s ease;
+}
+
+.skill-chip:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: #fff;
+  color: #0C6451;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Portfolio Filter Buttons ===== */
+.portfolio-filter {
+  border-radius: 2rem;
+  padding: 0.4rem 1.2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+}
+
+.portfolio-filter.active,
+.portfolio-filter:hover {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  color: #fff;
+}
+
+.portfolio-card {
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.portfolio-card.hidden {
+  opacity: 0;
+  transform: scale(0.9);
+  position: absolute;
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}

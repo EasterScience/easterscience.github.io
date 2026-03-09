@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="bgm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bgm)"/>
+  <!-- Music player UI -->
+  <rect x="200" y="80" width="500" height="420" rx="16" fill="#1e1e3a" stroke="#9b59b6" stroke-width="1.5"/>
+  <!-- Album art area -->
+  <circle cx="450" cy="230" r="100" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="2"/>
+  <circle cx="450" cy="230" r="70" fill="#9b59b6" opacity="0.15" stroke="#9b59b6" stroke-width="1"/>
+  <circle cx="450" cy="230" r="40" fill="#9b59b6" opacity="0.2"/>
+  <circle cx="450" cy="230" r="10" fill="#1e1e3a" stroke="#9b59b6" stroke-width="2"/>
+  <!-- Vinyl grooves -->
+  <circle cx="450" cy="230" r="55" fill="none" stroke="#9b59b6" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="450" cy="230" r="80" fill="none" stroke="#9b59b6" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="450" cy="230" r="90" fill="none" stroke="#9b59b6" stroke-width="0.5" opacity="0.15"/>
+  <!-- Music note -->
+  <text x="450" y="240" font-family="sans-serif" font-size="30" fill="#9b59b6" text-anchor="middle">&#9835;</text>
+  <!-- Song info -->
+  <text x="450" y="365" font-family="Montserrat, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="700">Now Streaming</text>
+  <text x="450" y="388" font-family="Lato, sans-serif" font-size="12" fill="#9b59b6" text-anchor="middle">Live Radio Channel</text>
+  <!-- Progress bar -->
+  <rect x="260" y="410" width="380" height="6" rx="3" fill="#2c3e50"/>
+  <rect x="260" y="410" width="220" height="6" rx="3" fill="#9b59b6" opacity="0.7"/>
+  <circle cx="480" cy="413" r="8" fill="#9b59b6"/>
+  <text x="260" y="432" font-family="Lato, sans-serif" font-size="9" fill="#fff" opacity="0.4">2:34</text>
+  <text x="640" y="432" font-family="Lato, sans-serif" font-size="9" fill="#fff" text-anchor="end" opacity="0.4">4:12</text>
+  <!-- Controls -->
+  <circle cx="380" cy="460" r="18" fill="none" stroke="#fff" stroke-width="1.5" opacity="0.3"/>
+  <polygon points="374,454 374,466 384,460" fill="#fff" opacity="0.3" transform="rotate(180, 379, 460)"/>
+  <circle cx="450" cy="460" r="24" fill="#9b59b6" opacity="0.5"/>
+  <rect x="443" y="450" width="5" height="20" rx="2" fill="#fff"/>
+  <rect x="452" y="450" width="5" height="20" rx="2" fill="#fff"/>
+  <circle cx="520" cy="460" r="18" fill="none" stroke="#fff" stroke-width="1.5" opacity="0.3"/>
+  <polygon points="514,454 514,466 524,460" fill="#fff" opacity="0.3"/>
+  <!-- Sound waves (left) -->
+  <rect x="120" y="200" width="4" height="30" rx="2" fill="#1abc9c" opacity="0.3"/>
+  <rect x="130" y="185" width="4" height="60" rx="2" fill="#1abc9c" opacity="0.4"/>
+  <rect x="140" y="195" width="4" height="40" rx="2" fill="#1abc9c" opacity="0.35"/>
+  <rect x="150" y="180" width="4" height="70" rx="2" fill="#1abc9c" opacity="0.45"/>
+  <rect x="160" y="190" width="4" height="50" rx="2" fill="#1abc9c" opacity="0.3"/>
+  <rect x="170" y="200" width="4" height="30" rx="2" fill="#1abc9c" opacity="0.25"/>
+  <!-- Sound waves (right) -->
+  <rect x="730" y="200" width="4" height="30" rx="2" fill="#1abc9c" opacity="0.3"/>
+  <rect x="740" y="185" width="4" height="60" rx="2" fill="#1abc9c" opacity="0.4"/>
+  <rect x="750" y="195" width="4" height="40" rx="2" fill="#1abc9c" opacity="0.35"/>
+  <rect x="760" y="180" width="4" height="70" rx="2" fill="#1abc9c" opacity="0.45"/>
+  <rect x="770" y="190" width="4" height="50" rx="2" fill="#1abc9c" opacity="0.3"/>
+  <rect x="780" y="200" width="4" height="30" rx="2" fill="#1abc9c" opacity="0.25"/>
+  <!-- LIVE badge -->
+  <rect x="400" y="95" width="100" height="25" rx="12" fill="#e74c3c" opacity="0.7"/>
+  <circle cx="420" cy="107" r="4" fill="#fff"/>
+  <text x="455" y="112" font-family="Montserrat, sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">LIVE</text>
+  <!-- Title -->
+  <text x="450" y="555" font-family="Montserrat, Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="700">Easter Music Player</text>
+  <text x="450" y="590" font-family="Lato, Arial, sans-serif" font-size="16" fill="#1abc9c" text-anchor="middle">HTML · CSS · JavaScript · Streaming</text>
+</svg>

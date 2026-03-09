@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="bg9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#1b3a1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg9)"/>
+  <!-- Account A (left) -->
+  <rect x="80" y="120" width="280" height="360" rx="10" fill="#1e1e3a" stroke="#f39c12" stroke-width="1.5"/>
+  <rect x="80" y="120" width="280" height="40" rx="10" fill="#f39c12" opacity="0.4"/>
+  <text x="220" y="145" font-family="Montserrat, sans-serif" font-size="12" fill="#f39c12" text-anchor="middle" font-weight="700">Account A (Master)</text>
+  <!-- Portfolio value -->
+  <text x="100" y="185" font-family="Lato, sans-serif" font-size="10" fill="#fff" opacity="0.5">Portfolio Value</text>
+  <text x="100" y="210" font-family="Montserrat, sans-serif" font-size="22" fill="#2ecc71" font-weight="700">$24,580</text>
+  <!-- Chart -->
+  <polyline points="100,280 140,270 180,290 220,250 260,260 300,230 340,240" fill="none" stroke="#2ecc71" stroke-width="2" opacity="0.6"/>
+  <!-- Trade list -->
+  <rect x="100" y="310" width="240" height="35" rx="4" fill="#2c3e50"/>
+  <text x="115" y="330" font-family="Lato, sans-serif" font-size="9" fill="#f39c12">BTC/USDT</text>
+  <text x="200" y="330" font-family="Lato, sans-serif" font-size="9" fill="#2ecc71">BUY</text>
+  <text x="310" y="330" font-family="Montserrat, sans-serif" font-size="9" fill="#fff" text-anchor="end">0.5 BTC</text>
+  <rect x="100" y="355" width="240" height="35" rx="4" fill="#2c3e50"/>
+  <text x="115" y="375" font-family="Lato, sans-serif" font-size="9" fill="#f39c12">ETH/USDT</text>
+  <text x="200" y="375" font-family="Lato, sans-serif" font-size="9" fill="#e74c3c">SELL</text>
+  <text x="310" y="375" font-family="Montserrat, sans-serif" font-size="9" fill="#fff" text-anchor="end">2.0 ETH</text>
+  <rect x="100" y="400" width="240" height="35" rx="4" fill="#2c3e50"/>
+  <text x="115" y="420" font-family="Lato, sans-serif" font-size="9" fill="#f39c12">SOL/USDT</text>
+  <text x="200" y="420" font-family="Lato, sans-serif" font-size="9" fill="#2ecc71">BUY</text>
+  <text x="310" y="420" font-family="Montserrat, sans-serif" font-size="9" fill="#fff" text-anchor="end">15 SOL</text>
+  <!-- Copy arrows -->
+  <line x1="380" y1="300" x2="520" y2="300" stroke="#1abc9c" stroke-width="2.5" opacity="0.6" stroke-dasharray="8,4"/>
+  <polygon points="515,292 530,300 515,308" fill="#1abc9c" opacity="0.6"/>
+  <!-- Copy icon -->
+  <circle cx="450" cy="300" r="30" fill="#1abc9c" opacity="0.1" stroke="#1abc9c" stroke-width="1.5"/>
+  <rect x="438" y="288" width="14" height="18" rx="2" fill="none" stroke="#1abc9c" stroke-width="1.5"/>
+  <rect x="444" y="294" width="14" height="18" rx="2" fill="none" stroke="#1abc9c" stroke-width="1.5"/>
+  <text x="450" y="345" font-family="Lato, sans-serif" font-size="10" fill="#1abc9c" text-anchor="middle">COPY</text>
+  <!-- SPOT label -->
+  <rect x="410" y="250" width="80" height="20" rx="10" fill="#3498db" opacity="0.3"/>
+  <text x="450" y="264" font-family="Lato, sans-serif" font-size="9" fill="#3498db" text-anchor="middle">SPOT</text>
+  <!-- FUTURE label -->
+  <rect x="410" y="360" width="80" height="20" rx="10" fill="#9b59b6" opacity="0.3"/>
+  <text x="450" y="374" font-family="Lato, sans-serif" font-size="9" fill="#9b59b6" text-anchor="middle">FUTURES</text>
+  <!-- Account B (right) -->
+  <rect x="540" y="120" width="280" height="360" rx="10" fill="#1e1e3a" stroke="#3498db" stroke-width="1.5"/>
+  <rect x="540" y="120" width="280" height="40" rx="10" fill="#3498db" opacity="0.4"/>
+  <text x="680" y="145" font-family="Montserrat, sans-serif" font-size="12" fill="#3498db" text-anchor="middle" font-weight="700">Account B (Copy)</text>
+  <text x="560" y="185" font-family="Lato, sans-serif" font-size="10" fill="#fff" opacity="0.5">Portfolio Value</text>
+  <text x="560" y="210" font-family="Montserrat, sans-serif" font-size="22" fill="#2ecc71" font-weight="700">$12,290</text>
+  <polyline points="560,280 600,270 640,290 680,250 720,260 760,230 800,240" fill="none" stroke="#2ecc71" stroke-width="2" opacity="0.6"/>
+  <!-- Copied trades -->
+  <rect x="560" y="310" width="240" height="35" rx="4" fill="#2c3e50"/>
+  <text x="575" y="330" font-family="Lato, sans-serif" font-size="9" fill="#f39c12">BTC/USDT</text>
+  <text x="660" y="330" font-family="Lato, sans-serif" font-size="9" fill="#2ecc71">BUY</text>
+  <circle cx="780" cy="327" r="8" fill="#2ecc71" opacity="0.4"/>
+  <polyline points="775,327 778,331 785,323" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="560" y="355" width="240" height="35" rx="4" fill="#2c3e50"/>
+  <text x="575" y="375" font-family="Lato, sans-serif" font-size="9" fill="#f39c12">ETH/USDT</text>
+  <text x="660" y="375" font-family="Lato, sans-serif" font-size="9" fill="#e74c3c">SELL</text>
+  <circle cx="780" cy="372" r="8" fill="#2ecc71" opacity="0.4"/>
+  <polyline points="775,372 778,376 785,368" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="560" y="400" width="240" height="35" rx="4" fill="#2c3e50"/>
+  <text x="575" y="420" font-family="Lato, sans-serif" font-size="9" fill="#f39c12">SOL/USDT</text>
+  <text x="660" y="420" font-family="Lato, sans-serif" font-size="9" fill="#2ecc71">BUY</text>
+  <circle cx="780" cy="417" r="8" fill="#f39c12" opacity="0.4"/>
+  <text x="780" y="421" font-family="sans-serif" font-size="8" fill="#fff" text-anchor="middle">...</text>
+  <!-- Title -->
+  <text x="450" y="540" font-family="Montserrat, Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="700">Copy Trading</text>
+  <text x="450" y="575" font-family="Lato, Arial, sans-serif" font-size="16" fill="#1abc9c" text-anchor="middle">Python · Binance API · SPOT · Futures</text>
+</svg>

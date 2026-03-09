@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="bg14" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0a3d62"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg14)"/>
+  <!-- PDF document -->
+  <rect x="280" y="80" width="340" height="430" rx="8" fill="#ffffff" opacity="0.95"/>
+  <!-- PDF header bar -->
+  <rect x="280" y="80" width="340" height="50" rx="8" fill="#e74c3c"/>
+  <text x="450" y="112" font-family="Montserrat, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="700">PDF</text>
+  <!-- Text lines -->
+  <rect x="310" y="155" width="280" height="8" rx="4" fill="#ddd"/>
+  <rect x="310" y="175" width="240" height="8" rx="4" fill="#ddd"/>
+  <rect x="310" y="195" width="260" height="8" rx="4" fill="#ddd"/>
+  <rect x="310" y="225" width="280" height="8" rx="4" fill="#ddd"/>
+  <rect x="310" y="245" width="200" height="8" rx="4" fill="#ddd"/>
+  <!-- Blue links -->
+  <rect x="310" y="280" width="180" height="10" rx="4" fill="#3498db"/>
+  <line x1="310" y1="293" x2="490" y2="293" stroke="#3498db" stroke-width="1"/>
+  <rect x="310" y="310" width="220" height="10" rx="4" fill="#3498db"/>
+  <line x1="310" y1="323" x2="530" y2="323" stroke="#3498db" stroke-width="1"/>
+  <rect x="310" y="340" width="160" height="10" rx="4" fill="#3498db"/>
+  <line x1="310" y1="353" x2="470" y2="353" stroke="#3498db" stroke-width="1"/>
+  <!-- Check marks for valid links -->
+  <circle cx="520" cy="285" r="12" fill="#2ecc71" opacity="0.9"/>
+  <polyline points="514,285 518,290 527,280" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="560" cy="315" r="12" fill="#2ecc71" opacity="0.9"/>
+  <polyline points="554,315 558,320 567,310" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- X mark for broken link -->
+  <circle cx="500" cy="345" r="12" fill="#e74c3c" opacity="0.9"/>
+  <line x1="495" y1="340" x2="505" y2="350" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="505" y1="340" x2="495" y2="350" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- More text lines -->
+  <rect x="310" y="380" width="250" height="8" rx="4" fill="#ddd"/>
+  <rect x="310" y="400" width="280" height="8" rx="4" fill="#ddd"/>
+  <rect x="310" y="420" width="190" height="8" rx="4" fill="#ddd"/>
+  <!-- Magnifying glass -->
+  <circle cx="680" cy="160" r="45" fill="none" stroke="#1abc9c" stroke-width="4" opacity="0.7"/>
+  <line x1="712" y1="192" x2="740" y2="220" stroke="#1abc9c" stroke-width="4" opacity="0.7" stroke-linecap="round"/>
+  <!-- Link icon inside magnifier -->
+  <path d="M668,150 Q660,150 660,158 Q660,166 668,166 L680,166" fill="none" stroke="#1abc9c" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M692,150 Q700,150 700,158 Q700,166 692,166 L680,166" fill="none" stroke="#1abc9c" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Title -->
+  <text x="450" y="560" font-family="Montserrat, Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="700">PDF Blue Link Validator</text>
+  <text x="450" y="595" font-family="Lato, Arial, sans-serif" font-size="16" fill="#1abc9c" text-anchor="middle">Python · Database · Hash Keys</text>
+</svg>

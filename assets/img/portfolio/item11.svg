@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="bg11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0a3d62"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg11)"/>
+  <!-- Email envelope (center) -->
+  <rect x="280" y="120" width="340" height="220" rx="12" fill="#2c3e50" stroke="#3498db" stroke-width="2"/>
+  <polyline points="285,125 450,260 615,125" fill="none" stroke="#3498db" stroke-width="2.5" opacity="0.6"/>
+  <line x1="285" y1="335" x2="380" y2="250" stroke="#3498db" stroke-width="1.5" opacity="0.3"/>
+  <line x1="615" y1="335" x2="520" y2="250" stroke="#3498db" stroke-width="1.5" opacity="0.3"/>
+  <!-- @ symbol -->
+  <circle cx="450" cy="200" r="35" fill="#3498db" opacity="0.15"/>
+  <text x="450" y="215" font-family="Montserrat, sans-serif" font-size="36" fill="#3498db" text-anchor="middle" font-weight="700">@</text>
+  <!-- Validation arrows -->
+  <!-- Check DNS -->
+  <line x1="450" y1="340" x2="250" y2="420" stroke="#f39c12" stroke-width="1.5" opacity="0.5"/>
+  <line x1="450" y1="340" x2="450" y2="420" stroke="#1abc9c" stroke-width="1.5" opacity="0.5"/>
+  <line x1="450" y1="340" x2="650" y2="420" stroke="#9b59b6" stroke-width="1.5" opacity="0.5"/>
+  <!-- Validation step 1: Syntax -->
+  <rect x="140" y="420" width="180" height="70" rx="10" fill="#f39c12" opacity="0.15" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="230" y="448" font-family="Montserrat, sans-serif" font-size="12" fill="#f39c12" text-anchor="middle" font-weight="700">Syntax Check</text>
+  <text x="230" y="470" font-family="Lato, sans-serif" font-size="10" fill="#fff" text-anchor="middle" opacity="0.5">RFC 5322 format</text>
+  <circle cx="300" cy="445" r="10" fill="#2ecc71" opacity="0.5"/>
+  <polyline points="295,445 298,449 305,441" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Validation step 2: DNS/MX -->
+  <rect x="360" y="420" width="180" height="70" rx="10" fill="#1abc9c" opacity="0.15" stroke="#1abc9c" stroke-width="1.5"/>
+  <text x="450" y="448" font-family="Montserrat, sans-serif" font-size="12" fill="#1abc9c" text-anchor="middle" font-weight="700">DNS / MX Lookup</text>
+  <text x="450" y="470" font-family="Lato, sans-serif" font-size="10" fill="#fff" text-anchor="middle" opacity="0.5">Domain verification</text>
+  <circle cx="520" cy="445" r="10" fill="#2ecc71" opacity="0.5"/>
+  <polyline points="515,445 518,449 525,441" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Validation step 3: SMTP -->
+  <rect x="580" y="420" width="180" height="70" rx="10" fill="#9b59b6" opacity="0.15" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="670" y="448" font-family="Montserrat, sans-serif" font-size="12" fill="#9b59b6" text-anchor="middle" font-weight="700">SMTP Verify</text>
+  <text x="670" y="470" font-family="Lato, sans-serif" font-size="10" fill="#fff" text-anchor="middle" opacity="0.5">Deliverability test</text>
+  <circle cx="740" cy="445" r="10" fill="#2ecc71" opacity="0.5"/>
+  <polyline points="735,445 738,449 745,441" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Result badges -->
+  <rect x="250" y="80" width="120" height="30" rx="15" fill="#2ecc71" opacity="0.2" stroke="#2ecc71" stroke-width="1"/>
+  <circle cx="272" cy="95" r="5" fill="#2ecc71"/>
+  <text x="320" y="100" font-family="Lato, sans-serif" font-size="10" fill="#2ecc71" text-anchor="middle">VALID</text>
+  <rect x="530" y="80" width="140" height="30" rx="15" fill="#e74c3c" opacity="0.2" stroke="#e74c3c" stroke-width="1"/>
+  <circle cx="552" cy="95" r="5" fill="#e74c3c"/>
+  <text x="610" y="100" font-family="Lato, sans-serif" font-size="10" fill="#e74c3c" text-anchor="middle">UNDELIVERABLE</text>
+  <!-- Title -->
+  <text x="450" y="550" font-family="Montserrat, Arial, sans-serif" font-size="26" fill="#ffffff" text-anchor="middle" font-weight="700">Email Validity &amp; Deliverability</text>
+  <text x="450" y="585" font-family="Lato, Arial, sans-serif" font-size="16" fill="#1abc9c" text-anchor="middle">Python · SMTP · DNS · Email Validation</text>
+</svg>
