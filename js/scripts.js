@@ -65,7 +65,8 @@ window.addEventListener('DOMContentLoaded', function () {
         'portfolioModal14': 'assets/img/portfolio/item14.svg',
         'portfolioModal15': 'assets/img/portfolio/item15.svg',
         'portfolioModal16': 'assets/img/portfolio/item16.svg',
-        'portfolioModal17': 'assets/img/portfolio/item17.svg'
+        'portfolioModal17': 'assets/img/portfolio/item17.svg',
+        'portfolioModal18': 'assets/img/portfolio/item18.svg'
     };
 
     document.querySelectorAll('.portfolio-modal').forEach(function (modal) {
